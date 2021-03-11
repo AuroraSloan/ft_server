@@ -27,7 +27,7 @@ RUN set -eux; \
         rm /tmp/$PHPMA_TAR /tmp/$WP_TAR; \
         openssl req -newkey rsa:2048 -x509 -nodes -days 365 \
                 -keyout $SSL_PATH/localhost.key -out $SSL_PATH/localhost.crt \
-                -subj "/C=JP/ST=Tokyo/L=Nerima/O=Company name/OU=Unit name/CN=localhost"
+                -subj "/C=JP/ST=Tokyo/L=Tokyo/O=42 Tokyo/CN=localhost"
 
 COPY srcs/* /tmp/
 

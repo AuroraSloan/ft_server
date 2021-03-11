@@ -17,9 +17,9 @@ service mysql start
 mysql -u root < /var/www/localhost/phpmyadmin/sql/create_tables.sql
 mysql -u root <<EOF
 CREATE DATABASE ft_server_db;
-CREATE USER 'reviewer'@'localhost' IDENTIFIED BY 'password';
+CREATE USER 'superuser'@'localhost' IDENTIFIED BY 'password';
 CREATE USER 'pma'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON *.* TO 'reviewer'@'localhost' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'superuser'@'localhost' WITH GRANT OPTION;
 GRANT ALL PRIVILEGES ON phpmyadmin.* TO 'pma'@'localhost';
 FLUSH PRIVILEGES;
 EOF

@@ -7,7 +7,7 @@
 define( 'DB_NAME', 'ft_server_db' );
 
 /** MySQL database username */
-define( 'DB_USER', 'reviewer' );
+define( 'DB_USER', 'superuser' );
 
 /** MySQL database password */
 define( 'DB_PASSWORD', 'password' );
