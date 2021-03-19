@@ -20,7 +20,7 @@ without autoindex
 bash build.sh -off
 ```
 Now you can open an internet browser and proceed to localhost:8080. Since the SSL certificate is self-signed, you will need click 'Advanced' and 'Accept the Risk and Continue' to access the above services.<br>
-[SSL]<br>
+[SSL](https://github.com/AuroraSloan/ft_server#####SSL
 Now you will be viewing either the autoindex page or general nginx index page depending on whether or not you chose to run the server with autoindex.<br>
 ![index]<br>
 When first accessing localhost/wordpress, you will be redirected to a setup page. You can create the 'Site Title', 'Username', 'password', 'Email', etc to your liking and click 'Install WordPress'. Now log in as the user you just created. From here on, the wordpress dashboard is located at localhost/wordpress/wp-admin.<br>
@@ -39,6 +39,7 @@ bash stop.sh
 ```
 
 ----
+##### SSL
 ![SSL](imgs/ssl.PNG)
 ![index](imgs/index.PNG)
 ![wordpress](imgs/wordpress.PNG)
