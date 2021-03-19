@@ -10,7 +10,7 @@ ENV SSL_PATH=/etc/nginx/ssl \
         PHPMA_URL=https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz \
         PHPMA_TAR=phpMyAdmin-latest-all-languages.tar.gz
 
-RUN set -eux; \
+RUN set -eu; \
         apt-get update && apt-get install -y \
         default-mysql-server \
         nginx \
@@ -27,7 +27,8 @@ RUN set -eux; \
         rm /tmp/$PHPMA_TAR /tmp/$WP_TAR; \
         openssl req -newkey rsa:2048 -x509 -nodes -days 365 \
                 -keyout $SSL_PATH/localhost.key -out $SSL_PATH/localhost.crt \
-                -subj "/C=JP/ST=Tokyo/L=Tokyo/O=42 Tokyo/CN=localhost"
+                -subj "/C=JP/ST=Tokyo/L=Tokyo/O=42 Tokyo/CN=localhost"; \
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~LOADING~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
 COPY srcs/* /tmp/
 
