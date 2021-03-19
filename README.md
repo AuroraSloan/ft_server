@@ -12,7 +12,7 @@ https://github.com/AuroraSloan/ft_server.git
 
 ### Usage
 Run the build.sh file to build the image and run the container.<br>
-```With autoindex```
+> With autoindex
 ```bash
 bash build.sh
 ```
