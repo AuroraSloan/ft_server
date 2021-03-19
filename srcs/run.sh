@@ -10,6 +10,7 @@ ln -s /etc/nginx/sites-available/localhost /etc/nginx/sites-enabled/localhost
 # autoindex option configuration
 if [ "$AUTOINDEX" == "off" ]; then
 	sed -i 's/autoindex on/autoindex off/' /etc/nginx/sites-available/localhost
+	cp ../html/index.nginx-debian.html .
 fi
 
 # database configuration

@@ -28,7 +28,7 @@ RUN set -eu; \
         openssl req -newkey rsa:2048 -x509 -nodes -days 365 \
                 -keyout $SSL_PATH/localhost.key -out $SSL_PATH/localhost.crt \
                 -subj "/C=JP/ST=Tokyo/L=Tokyo/O=42 Tokyo/CN=localhost"; \
-	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~LOADING~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~LOADING~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
 COPY srcs/* /tmp/
 
