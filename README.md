@@ -23,13 +23,14 @@ bash build.sh -off
 ```
 ----------
 ### Features
-<br>Now you can open an internet browser and proceed to localhost:8080. Since the SSL certificate is self-signed, you will need click ```Advanced``` and ```Accept the Risk and Continue``` to access the above services.<br>
+Open firefox and proceed to localhost:8080. Since the SSL certificate is self-signed, you will need to click ```Advanced``` and ```Accept the Risk and Continue``` to access the above services.<br>
 [security warning image](https://github.com/AuroraSloan/ft_server/blob/main/README.md#ssl)<br>
 <br>Now you will be viewing either the autoindex page or general nginx index page depending on whether or not you chose to run the server with autoindex.<br>
 [autoindex page image](https://github.com/AuroraSloan/ft_server/blob/main/README.md#index)<br>
-<br>When first accessing https://localhost/wordpress, you will be redirected to a setup page. You can create the 'Site Title', 'Username', 'password', 'Email', etc to your liking and click ```Install WordPress```. Now log in as the user you just created. From here on, the wordpress dashboard is located at https://localhost/wordpress/wp-admin.<br>
+<br>When first accessing https://localhost/wordpress, you will be redirected to a setup page. After you create the 'Site Title', 'Username', 'password', 'Email', etc to your liking, click ```Install WordPress```. Now log in as the user you just created.<br>
+From here on, the wordpress dashboard is located at https://localhost/wordpress/wp-admin.<br>
 [wordpress install image](https://github.com/AuroraSloan/ft_server/blob/main/README.md#wordpress)<br>
-<br>After setting up wordpress, the database should be ready to go. Now you can login at https://localhost/phpmyadmin. The login information I have dedicated to phpmyadmin for this sample server is username: 'superuser' and password: 'password'. Again, this is not secure and is only meant to be a sample of how such a server would be set up.<br>
+<br>After setting up wordpress, the database should be ready to go. Open a new tab and go to https://localhost/phpmyadmin. The login information I have dedicated to phpmyadmin for this sample server is username: 'superuser' and password: 'password'. Again, this is not secure and is only meant to be a sample of how such a server would be set up.<br>
 After logging in, you will be able to see the database created for this server 'ft_server_db' with all necessary tables.<br>
 [phpmyadmin hompage image](https://github.com/AuroraSloan/ft_server/blob/main/README.md#phpmyadmin)<br>
 <br>Now you can go to https://localhost/wordpress and see the sample site. Here or at https://localhost/wordpress/wp-admin, you can create posts, comments, pages, etc.<br>
