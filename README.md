@@ -30,10 +30,13 @@ Open firefox and proceed to localhost:8080. Since the SSL certificate is self-si
 <br>When first accessing https://localhost/wordpress, you will be redirected to a setup page. After you create the 'Site Title', 'Username', 'password', 'Email', etc to your liking, click ```Install WordPress```. Now log in as the user you just created.<br>
 From here on, the wordpress dashboard is located at https://localhost/wordpress/wp-admin.<br>
 [wordpress install image](https://github.com/AuroraSloan/ft_server/blob/main/README.md#wordpress)<br>
-<br>After setting up wordpress, the database should be ready to go. Open a new tab and go to https://localhost/phpmyadmin. The login information I have dedicated to phpmyadmin for this sample server is username: 'superuser' and password: 'password'. Again, this is not secure and is only meant to be a sample of how such a server would be set up.<br>
+<br>After setting up wordpress, the database should be ready to go. Open a new tab and go to https://localhost/phpmyadmin.<br>
+The phpmyadmin loging information for this sample server is:<br>
+username: 'superuser' and password: 'password'.<br>
+Again, this is not secure and is only meant to be a sample of how such a server would be set up.<br>
 After logging in, you will be able to see the database created for this server 'ft_server_db' with all necessary tables.<br>
 [phpmyadmin hompage image](https://github.com/AuroraSloan/ft_server/blob/main/README.md#phpmyadmin)<br>
-<br>Now you can go to https://localhost/wordpress and see the sample site. Here or at https://localhost/wordpress/wp-admin, you can create posts, comments, pages, etc.<br>
+<br>To see the sample site, go to https://localhost/wordpress. Here or at https://localhost/wordpress/wp-admin, you can create posts, comments, pages, etc.<br>
 [wordpress site](https://github.com/AuroraSloan/ft_server/blob/main/README.md#site)<br>
 <br>After updating the site, you can refresh your phpmyadmin page and see the updated database tables.<br>
 [phpmyadmin posts table image](https://github.com/AuroraSloan/ft_server/blob/main/README.md#table)<br>
