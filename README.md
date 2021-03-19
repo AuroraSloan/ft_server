@@ -41,13 +41,13 @@ bash stop.sh
 ----
 ##### SSL
 ![SSL](imgs/ssl.PNG)
-##### index
-![index](imgs/index.PNG)
-##### wordpress
-![wordpress](imgs/wordpress.PNG)
-##### phpmyadmin
-![phpmyadmin](imgs/phpmyadmin.PNG)
-##### site
-![site](imgs/site.PNG)
-##### test
-![test](imgs/test.PNG)
+##### INDEX
+![INDEX](imgs/index.PNG)
+##### WORDPRESS
+![WORDPRESS](imgs/wordpress.PNG)
+##### PHPMYADMIN
+![PHPMYADMIN](imgs/phpmyadmin.PNG)
+##### SITE
+![SITE](imgs/site.PNG)
+##### TEST
+![TEST](imgs/test.PNG)
