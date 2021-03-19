@@ -29,9 +29,9 @@ After setting up wordpress, the database should be ready to go. Now you can logi
 After logging in, you will be able to see the database created for this server 'ft_server_db' with all necessary tables.<br>
 ![phpmyadmin](https://github.com/AuroraSloan/ft_server/blob/main/README.md#phpmyadmin)<br>
 Now you can go to localhost/wordpress and see the sample site. Here or at localhost/wordpress/wp-admin, you can create posts, comments, pages, etc.<br>
-![test](https://github.com/AuroraSloan/ft_server/blob/main/README.md#test)<br>
+![test](https://github.com/AuroraSloan/ft_server/blob/main/README.md#site)<br>
 After updating the site, you can refresh your phpmyadmin page and see the updated database tables.<br>
-![post](https://github.com/AuroraSloan/ft_server/blob/main/README.md#post)<br>
+![post](https://github.com/AuroraSloan/ft_server/blob/main/README.md#test)<br>
 
 Run the stop.sh file to stop the container and remove the image and container.
 ```bash
@@ -47,7 +47,7 @@ bash stop.sh
 ![wordpress](imgs/wordpress.PNG)
 ##### phpmyadmin
 ![phpmyadmin](imgs/phpmyadmin.PNG)
+##### site
+![site](imgs/site.PNG)
 ##### test
-![test](imgs/site.PNG)
-##### post
-![post](imgs/test.PNG)
+![test](imgs/test.PNG)
