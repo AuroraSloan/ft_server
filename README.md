@@ -8,7 +8,7 @@ This sample server uses a self-signed SSL certificate and is run with autoindex 
 ----
 ### Installation
 ```bash
-https://github.com/AuroraSloan/ft_server.git
+git clone https://github.com/AuroraSloan/ft_server.git
 ```
 
 ### Usage
